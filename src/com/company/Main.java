@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Scanner;
 
 public class Main {
 
@@ -71,9 +70,17 @@ public class Main {
 
          */
 
+        for (int a :oddNumberInRange(7)
+             ) {
 
+            System.out.println(a);
+        }
 
     }
 
+    private static int[] oddNumberInRange(int range){
+        int arr[] = {1,3,5,7,9,11};
+        return arr;
+    }
 
 }
